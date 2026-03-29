@@ -1,0 +1,8 @@
+{
+    "Instances": [
+        {"InstanceId": "i-1", "State": "running"},
+        {"InstanceId": "i-2", "State": "stopped"},
+        {"InstanceId": "i-3", "State": "running"},
+        {"InstanceId": "i-4", "State": "stopped"}
+    ]
+}

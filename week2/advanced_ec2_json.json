@@ -1,0 +1,30 @@
+{
+  "Reservations": [
+    {
+      "Instances": [
+        {
+          "InstanceId": "i-1",
+          "InstanceType": "t3.micro",
+          "State": {
+            "Name": "running"
+          },
+          "PublicIpAddress": "54.123.45.67"
+        },
+        {
+          "InstanceId": "i-2",
+          "InstanceType": "t2.small",
+          "State": {
+            "Name": "stopped"
+          }
+        },
+        {
+          "InstanceId": "i-3",
+          "InstanceType": "t3.small",
+          "State": {
+            "Name": "running"
+          }
+        }
+      ]
+    }
+  ]
+}

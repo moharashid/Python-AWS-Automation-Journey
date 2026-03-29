@@ -1,0 +1,41 @@
+{
+  "Reservations": [
+    {
+      "Instances": [
+        {
+          "InstanceId": "i-1",
+          "InstanceType": "t3.micro",
+          "State": { "Name": "running" },
+          "Tags": [
+            {"Key": "Environment", "Value": "Production"},
+            {"Key": "Owner", "Value": "TeamA"}
+          ],
+          "NetworkInterfaces": [
+            {
+              "PrivateIpAddress": "10.0.0.5",
+              "Association": { "PublicIp": "54.123.45.67" }
+            }
+          ]
+        },
+        {
+          "InstanceId": "i-2",
+          "InstanceType": "t2.small",
+          "State": { "Name": "running" },
+          "Tags": [
+            {"Key": "Environment", "Value": "Dev"}
+          ],
+          "NetworkInterfaces": [
+            {
+              "PrivateIpAddress": "10.0.0.6"
+            }
+          ]
+        },
+        {
+          "InstanceId": "i-3",
+          "InstanceType": "t2.medium",
+          "State": { "Name": "stopped" }
+        }
+      ]
+    }
+  ]
+}

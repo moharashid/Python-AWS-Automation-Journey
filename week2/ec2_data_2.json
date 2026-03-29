@@ -1,0 +1,7 @@
+{
+    "Instances": [
+        {"InstanceId": "i-1", "InstanceType": "t3.micro", "State": "running"},
+        {"InstanceId": "i-2", "InstanceType": "t2.small", "State": "stopped"},
+        {"InstanceId": "i-3", "InstanceType": "t2.medium", "State": "running"}
+    ]
+}

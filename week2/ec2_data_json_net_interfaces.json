@@ -1,0 +1,21 @@
+{
+  "Reservations": [
+    {
+      "Instances": [
+        {
+          "InstanceId": "i-1",
+          "InstanceType": "t3.micro",
+          "State": { "Name": "running" },
+          "NetworkInterfaces": [
+            {
+              "PrivateIpAddress": "10.0.0.5",
+              "Association": {
+                "PublicIp": "54.123.45.67"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
