@@ -1,0 +1,3 @@
+instance_id,instance_type,state,private_ip,public_ip
+i-1,t3.micro,running,10.0.0.5,54.123.45.67
+i-3,t2.medium,running,N/A,N/A
